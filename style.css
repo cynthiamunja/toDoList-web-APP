@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    background-color: rgb(218, 226, 230);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    padding: 1%;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+.header p{
+    margin-left: 20%;
+}
+.addnew{
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 20%;
+    height: auto;
+    box-shadow: 0px 5px 4px rgba(2, 2, 2, 0.1);
+    padding: 2%;
+    background-color: rgb(218, 226, 230);
+    border-radius: 3%;
+}
+.to-do-list{
+   
+    padding: 0.2%;
+    margin-top: 0.3%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    border: solid blue;
+    column-gap: 0.05%;
+    margin-left: 10%;
+    height: auto;
+    width: 40%;
+}
+.top{
+    display: flex;
+    column-gap: 10%;
+}
+.checkbutton{
+    padding: 1%;
+}

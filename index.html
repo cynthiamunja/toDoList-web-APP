@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO List app</title>
+</head>
+<body>
+   <div class="container">
+    <div class="header">
+        <p> Stay Organized!</p>
+       <!--- <a href=".donetasks"><b>See past Lists</b> <img src="./images/icons8-down-94.png" alt="" style="height: 20px; width: 20px; margin-top: 2%;"></a>-->
+    </div>
+    <div class="addnew">
+        <h4>Add New Task</h4>
+        <p id="warning" style="color: red;"></p>
+        <label for="title">Title</label>
+        <br>
+        <input type="text" id="title" required>
+        <br><br>
+        <label for="date">Needs to be done before</label>
+        <br>
+        <input type="date" name="date" id="completion-date">
+        <br><br>
+        <label for="description">Description:</label>
+        <br>
+        <input type="text" name="description" id="description">
+        <button id="addNewTask">Add New Task</button>
+    </div>
+    <div class="paragraph">
+        <p>Your List:</p>
+    </div>
+    <div id="mylist">
+        
+    </div>
+    <div id="donetasks">
+       
+    </div>
+   </div> 
+   <script src="app.js" defer></script>
+</body>
+</html>
